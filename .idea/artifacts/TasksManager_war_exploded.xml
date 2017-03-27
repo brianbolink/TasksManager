@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="TasksManager:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/TasksManager_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="TasksManager" />
+        </element>
+        <element id="file-copy" path="$PROJECT_DIR$/libs/mysql-connector-java-5.1.41-bin.jar" />
+      </element>
+      <element id="javaee-facet-resources" facet="TasksManager/web/Web" />
+    </root>
+  </artifact>
+</component>

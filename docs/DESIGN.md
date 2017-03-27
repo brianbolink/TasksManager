@@ -1,51 +1,51 @@
-##ÈÕ³Ì¹ÜÀíÏµÍ³
+ï»¿##æ—¥ç¨‹ç®¡ç†ç³»ç»Ÿ
 
 ----
-###¾²Ì¬Éè¼Æ : 
+###é™æ€è®¾è®¡ : 
 
-####ÊÂÎñÀàÉè¼Æ
-1. **ÃèÊö (Ãû³Æ)**
-2. **½ØÖ¹Ê±¼ä**
-3. **·ÖÅä¸øË­ (²ÎÓëÕß)**
-4. **Ë­´´½¨µÄÈÎÎñ**
-5. **ÊÇ·ñÖØ¸´ , ÈçºÎÖØ¸´ ? ÖÜÆÚ**
-6. **ÊÇ·ñÌáÐÑ ? ÈçºÎÌáÐÑ ? ¶ÌÐÅ ? »¹ÊÇÓÊ¼þ**
-7. **ÖØÒªÐÔ (·ÖÎªÈý¸öÖØÒªÐÔµÈ¼¶)**
-8. **ÊÇ·ñ½ô¼± (·ÖÎªÈý¸öµÈ¼¶)**
-9. ±¸×¢
-10. ×ÓÈÎÎñ
-11. ÆÀ¼Û
-12. ±êÇ©
-13. ¹ØÁªÄÚÈÝ
+####äº‹åŠ¡ç±»è®¾è®¡
+1. **æè¿° (åç§°)**
+2. **æˆªæ­¢æ—¶é—´**
+3. **åˆ†é…ç»™è° (å‚ä¸Žè€…)**
+4. **è°åˆ›å»ºçš„ä»»åŠ¡**
+5. **æ˜¯å¦é‡å¤ , å¦‚ä½•é‡å¤ ? å‘¨æœŸ**
+6. **æ˜¯å¦æé†’ ? å¦‚ä½•æé†’ ? çŸ­ä¿¡ ? è¿˜æ˜¯é‚®ä»¶**
+7. **é‡è¦æ€§ (åˆ†ä¸ºä¸‰ä¸ªé‡è¦æ€§ç­‰çº§)**
+8. **æ˜¯å¦ç´§æ€¥ (åˆ†ä¸ºä¸‰ä¸ªç­‰çº§)**
+9. å¤‡æ³¨
+10. å­ä»»åŠ¡
+11. è¯„ä»·
+12. æ ‡ç­¾
+13. å…³è”å†…å®¹
 
-####ÏîÄ¿ÀàÉè¼Æ
-1. Ãû³Æ
+####é¡¹ç›®ç±»è®¾è®¡
+1. åç§°
 
-####ÓÃ»§ÀàÉè¼Æ
-1. **ÓÃ»§Ãû**
-2. **ÃÜÂë**
-3. ËùÊôÍÅ¶Ó (¶à¸ö)
+####ç”¨æˆ·ç±»è®¾è®¡
+1. **ç”¨æˆ·å**
+2. **å¯†ç **
+3. æ‰€å±žå›¢é˜Ÿ (å¤šä¸ª)
 
-####ÍÅ¶Ó
-1. ÍÅ¶ÓÃû
-2. ÍÅ¶Ó¶Ó³¤
-2. ÍÅ¶ÓÖ÷Ò³
-3. ÍÅ¶Ó³ÉÔ±
+####å›¢é˜Ÿ
+1. å›¢é˜Ÿå
+2. å›¢é˜Ÿé˜Ÿé•¿
+2. å›¢é˜Ÿä¸»é¡µ
+3. å›¢é˜Ÿæˆå‘˜
 
 ----
-####Êý¾Ý¿âÉè¼Æ : 
+####æ•°æ®åº“è®¾è®¡ : 
 
-####½¨¿â : 
+####å»ºåº“ : 
 ```
 CREATE DATABASE `tasksmanager` /*!40100 DEFAULT CHARACTER SET utf8 */;
 ```
 
-#####ÓÃ»§±í : 
+#####ç”¨æˆ·è¡¨ : 
 
-1. ID (Ö÷¼ü)
-2. ÓÃ»§Ãû
-3. ÃÜÂë
-4. ÍÅ¶ÓID (Íâ¼ü)
+1. ID (ä¸»é”®)
+2. ç”¨æˆ·å
+3. å¯†ç 
+4. å›¢é˜ŸID (å¤–é”®)
 ```
 CREATE TABLE `users` (
   `ID` int(16) NOT NULL AUTO_INCREMENT,
@@ -63,14 +63,14 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 ```
 
-#####ÊÂÎñ±í
-1. ID (Ö÷¼ü)
-2. Ãû³Æ
-3. ÃèÊö
-4. ´´½¨ÕßID
-6. ÖØÒªÐÔ (0 ²»ÖØÒª , 1, 2, 3 ÖØÒª)
-7. ½ô¼±ÐÔ (0 , 1, 2, 3)
-8. ÊÇ·ñÒÑÍê³É (×´Ì¬)
+#####äº‹åŠ¡è¡¨
+1. ID (ä¸»é”®)
+2. åç§°
+3. æè¿°
+4. åˆ›å»ºè€…ID
+6. é‡è¦æ€§ (0 ä¸é‡è¦ , 1, 2, 3 é‡è¦)
+7. ç´§æ€¥æ€§ (0 , 1, 2, 3)
+8. æ˜¯å¦å·²å®Œæˆ (çŠ¶æ€)
 ```
 CREATE TABLE `tasks` (
   `ID` int(16) NOT NULL AUTO_INCREMENT,
@@ -84,10 +84,10 @@ CREATE TABLE `tasks` (
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 ```
 
-#####ÊÂÎñ\_²ÎÓëÕß\_¹ØÁª±í
-1. ID (Ö÷¼ü)
-2. ÊÂÎñID
-3. ²ÎÓëÕßID
+#####äº‹åŠ¡\_å‚ä¸Žè€…\_å…³è”è¡¨
+1. ID (ä¸»é”®)
+2. äº‹åŠ¡ID
+3. å‚ä¸Žè€…ID
 ```
 CREATE TABLE `executors_tasks_relationship` (
   `ID` int(16) NOT NULL AUTO_INCREMENT,
@@ -97,9 +97,9 @@ CREATE TABLE `executors_tasks_relationship` (
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 ```
 
-#####±êÇ©¾²Ì¬±í (Ö»¼ÇÂ¼±êÇ©µÄÃû³Æ)
-1. ID (Ö÷¼ü)
-2. Ãû³Æ
+#####æ ‡ç­¾é™æ€è¡¨ (åªè®°å½•æ ‡ç­¾çš„åç§°)
+1. ID (ä¸»é”®)
+2. åç§°
 ```
 CREATE TABLE `lables` (
   `ID` int(16) NOT NULL AUTO_INCREMENT,
@@ -107,10 +107,10 @@ CREATE TABLE `lables` (
   PRIMARY KEY (`ID`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 ```
-#####±êÇ©ÊÂÎñ¹ØÁª±í
-1. ID (Ö÷¼ü)
-2. ÊÂÎñID
-3. ±êÇ© ID
+#####æ ‡ç­¾äº‹åŠ¡å…³è”è¡¨
+1. ID (ä¸»é”®)
+2. äº‹åŠ¡ID
+3. æ ‡ç­¾ ID
 ```
 CREATE TABLE `lables_tasks_relationship` (
   `ID` int(16) NOT NULL AUTO_INCREMENT,
@@ -119,87 +119,87 @@ CREATE TABLE `lables_tasks_relationship` (
   PRIMARY KEY (`ID`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 ```
-ÏîÄ¿±í
-ÍÅ¶Ó±í
-1. ÍÅ¶Ó ID (Ö÷¼ü)
-2. ÍÅ¶ÓÃû³Æ
-2. ´´½¨Õß ID
-3. ¶Ó³¤ ID
-4. ÃèÊö
+é¡¹ç›®è¡¨
+å›¢é˜Ÿè¡¨
+1. å›¢é˜Ÿ ID (ä¸»é”®)
+2. å›¢é˜Ÿåç§°
+2. åˆ›å»ºè€… ID
+3. é˜Ÿé•¿ ID
+4. æè¿°
 
-ÓÃ»§ÍÅ¶Ó¹ØÁª±í
-1. ID (Ö÷¼ü)
-2. ÓÃ»§ ID
-3. ÍÅ¶Ó ID
+ç”¨æˆ·å›¢é˜Ÿå…³è”è¡¨
+1. ID (ä¸»é”®)
+2. ç”¨æˆ· ID
+3. å›¢é˜Ÿ ID
 
-ÆÀÂÛ»á»°±í (Ò»¸öÆÀÂÛ»á»°¿ÉÄÜÓÐ)
-1. ID (Ö÷¼ü)
+è¯„è®ºä¼šè¯è¡¨ (ä¸€ä¸ªè¯„è®ºä¼šè¯å¯èƒ½æœ‰)
+1. ID (ä¸»é”®)
 
-ÆÀÂÛÄÚÈÝ±í
-1. ÆÀÂÛID
-2. ÆÀÂÛÄÚÈÝ
-3. ·¢ËÍÕßID
-4. Ê±¼ä
-5. ¹ØÁªµÄÊÂÎñ ID
+è¯„è®ºå†…å®¹è¡¨
+1. è¯„è®ºID
+2. è¯„è®ºå†…å®¹
+3. å‘é€è€…ID
+4. æ—¶é—´
+5. å…³è”çš„äº‹åŠ¡ ID
 
 ---
-###¶¯Ì¬Éè¼Æ
+###åŠ¨æ€è®¾è®¡
 
-####ÊÂÎñ¹ÜÀíÄ£¿é
-1. **Ìí¼ÓÊÂÎñ**
-2. **É¾³ýÊÂÎñ**
-3. **ÐÞ¸ÄÊÂÎñ(Íê³ÉÊÂÎñ)(ÊÂÎñ·ÖÀà)**
-4. **²éÑ¯ÊÂÎñ**
+####äº‹åŠ¡ç®¡ç†æ¨¡å—
+1. **æ·»åŠ äº‹åŠ¡**
+2. **åˆ é™¤äº‹åŠ¡**
+3. **ä¿®æ”¹äº‹åŠ¡(å®Œæˆäº‹åŠ¡)(äº‹åŠ¡åˆ†ç±»)**
+4. **æŸ¥è¯¢äº‹åŠ¡**
 
-####ÓÃ»§¹ÜÀíÄ£¿é
-1. **ÓÃ»§µÇÂ½**
-2. **ÓÃ»§×¢²á**
-3. ÓÃ»§ÕÒ»ØÃÜÂë
+####ç”¨æˆ·ç®¡ç†æ¨¡å—
+1. **ç”¨æˆ·ç™»é™†**
+2. **ç”¨æˆ·æ³¨å†Œ**
+3. ç”¨æˆ·æ‰¾å›žå¯†ç 
 
-¶àÓÃ»§¹ÜÀí
-1. ¶àÓÃ»§Ö®¼ä»¥Ïà½»Á÷
-2. ÍÅ¶ÓÐ­×÷
+å¤šç”¨æˆ·ç®¡ç†
+1. å¤šç”¨æˆ·ä¹‹é—´äº’ç›¸äº¤æµ
+2. å›¢é˜Ÿåä½œ
 
-ÓÃ»§ÌåÑéÖ§³ÖÄ£¿é : 
-1. ÓÊ¼þ·¢ËÍ·þÎñ (ÊÂÎñÌáÐÑ / ÓÃ»§×¢²á / ÕÒ»ØÃÜÂë)
-2. ¶ÌÐÅ·¢ËÍ·þÎñ (ÊÂÎñÌáÐÑ / ÓÃ»§×¢²á / ÕÒ»ØÃÜÂë)
+ç”¨æˆ·ä½“éªŒæ”¯æŒæ¨¡å— : 
+1. é‚®ä»¶å‘é€æœåŠ¡ (äº‹åŠ¡æé†’ / ç”¨æˆ·æ³¨å†Œ / æ‰¾å›žå¯†ç )
+2. çŸ­ä¿¡å‘é€æœåŠ¡ (äº‹åŠ¡æé†’ / ç”¨æˆ·æ³¨å†Œ / æ‰¾å›žå¯†ç )
 3. 
 
-ÃüÃû¹æ·¶ : 
-1. ÍÕ·åÃüÃû
-2. ËùÓÐ ID Á½¸ö×Ö·ûÈ«²¿´óÐ´
+å‘½åè§„èŒƒ : 
+1. é©¼å³°å‘½å
+2. æ‰€æœ‰ ID ä¸¤ä¸ªå­—ç¬¦å…¨éƒ¨å¤§å†™
 
 ---
-###×îÐ¡¿ÉÐÐÐÔ²úÆ·
-µÚÒ»½×¶Î : Ö»Ìá¹©ÊÂÎñµÄÔöÉ¾¸Ä²é , ÓÃ»§µÇÂ½×¢²á
-µÚ¶þ½×¶Î : Ìá¹©Ò»¸ö½¨ÒéµÄÁÐ±íÖ´ÐÐË³Ðò (°´ÕÕ½ô¼±ÐÔ / ÖØÒªÐÔµÈ)
-µÚÈý½×¶Î : Ìá¹©ÆÀÂÛ¹¦ÄÜ
-µÚËÄ½×¶Î : ´´½¨ÍÅ¶Ó , ¼ÓÈëÍÅ¶Ó¹¦ÄÜ
-µÚÎå½×¶Î : ÕÒ»ØÃÜÂë¹¦ÄÜ
+###æœ€å°å¯è¡Œæ€§äº§å“
+ç¬¬ä¸€é˜¶æ®µ : åªæä¾›äº‹åŠ¡çš„å¢žåˆ æ”¹æŸ¥ , ç”¨æˆ·ç™»é™†æ³¨å†Œ
+ç¬¬äºŒé˜¶æ®µ : æä¾›ä¸€ä¸ªå»ºè®®çš„åˆ—è¡¨æ‰§è¡Œé¡ºåº (æŒ‰ç…§ç´§æ€¥æ€§ / é‡è¦æ€§ç­‰)
+ç¬¬ä¸‰é˜¶æ®µ : æä¾›è¯„è®ºåŠŸèƒ½
+ç¬¬å››é˜¶æ®µ : åˆ›å»ºå›¢é˜Ÿ , åŠ å…¥å›¢é˜ŸåŠŸèƒ½
+ç¬¬äº”é˜¶æ®µ : æ‰¾å›žå¯†ç åŠŸèƒ½
 ...
 
 ---
-¾ßÌå sql Óï¾äÄ£°æ²âÊÔ : 
-1. ×¢²á
+å…·ä½“ sql è¯­å¥æ¨¡ç‰ˆæµ‹è¯• : 
+1. æ³¨å†Œ
 ```
 INSERT INTO `users` (username, password, sex, birthday, email, phone, registeTime, salt, token, tokenFailTime) VALUES ('WangYihang', '123456', '1', '1997', 'wangyihanger@gmail.com', '15776624248', '1490591867', '', '', '1490791867');
 ```
-2. µÇÂ½
+2. ç™»é™†
 ```
 select * from users where username = 'WangYihang';
-ÅÐ¶ÏÃÜÂë¼ÓÃÜºóµÄÐ£ÑéÊÇ·ñÍ¨¹ý
+åˆ¤æ–­å¯†ç åŠ å¯†åŽçš„æ ¡éªŒæ˜¯å¦é€šè¿‡
 ```
-3. ²éÑ¯Ä³¸öÓÃ»§´´½¨µÄËùÓÐ tasks
+3. æŸ¥è¯¢æŸä¸ªç”¨æˆ·åˆ›å»ºçš„æ‰€æœ‰ tasks
 ```
 select * from tasks where creatorID = '1';
 ```
-4. ¸ù¾Ý±êÇ©²éÑ¯¸ÃÓÃ»§´´½¨µÄËùÓÐ tasks
+4. æ ¹æ®æ ‡ç­¾æŸ¥è¯¢è¯¥ç”¨æˆ·åˆ›å»ºçš„æ‰€æœ‰ tasks
 ```
 select ID from lables where name like '%keyword%';
 select taskID from lables_tasks_relationship where lableID = 'ID'
 select * from tasks where ID = 'taskID' and creator = 'WangYihang'
 ```
-4. ²éÑ¯ËùÓÐÓÃ»§ (¹ÜÀíÔ±¹¦ÄÜ)
+4. æŸ¥è¯¢æ‰€æœ‰ç”¨æˆ· (ç®¡ç†å‘˜åŠŸèƒ½)
 ```
 select * from users where username like '%keyword%'
 ```
